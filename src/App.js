@@ -3,21 +3,22 @@ import React,{useState,useEffect} from 'react';
 import './App.css';
 
 const App = () =>  {
+  const [count, setCount] =useState(0);
+  function countChk(){
+    alert("현재 카운트는 " + count + "입니다");
+  }
+  useEffect (() => {
+    document.title = `카운트 ${count} 타이틀`;
+  })
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <h3>현재 카운트 = {count}</h3>
+        <button onClick={()=> setCount(count+1)}>카운트증가</button>
+        <button onClick={()=> setCount(count-1)}>카운트감소</button>
+        <button onClick={countChk}>현재 카운트 팝업</button>
       </header>
     </div>
   );
