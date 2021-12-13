@@ -20,6 +20,11 @@ const App = () =>  {
         <button onClick={()=> setCount(count+1)}>카운트증가</button>
         <button onClick={()=> setCount(count-1)}>카운트감소</button>
         <button onClick={countChk}>현재 카운트 팝업</button>
+        <hr></hr>
+        <div className="chat">
+          <iframe>
+          </iframe>
+        </div>
       </body>
       <footer>
         밤하늘의 퍼얼
