@@ -7,7 +7,7 @@ const App = () =>  {
     alert("현재 카운트는 " + count + "입니다");
   }
   useEffect (() => {
-    document.title = `카운트 ${count} 타이틀`;
+    document.title = `카운팅 ${count} `;
   })
   return (
     <div className="App">
@@ -15,13 +15,14 @@ const App = () =>  {
         헤더영역
       </header>
       <body>
-        <h3>현재 카운트 = {count}</h3>
+        <span>카운팅스타 = {count}</span>
+        <hr></hr>
         <button onClick={()=> setCount(count+1)}>카운트증가</button>
         <button onClick={()=> setCount(count-1)}>카운트감소</button>
         <button onClick={countChk}>현재 카운트 팝업</button>
       </body>
       <footer>
-        푸터
+        밤하늘의 퍼얼
       </footer>
     </div>
   );
