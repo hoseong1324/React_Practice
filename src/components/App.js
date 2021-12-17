@@ -1,34 +1,35 @@
-import React,{useState,useEffect} from 'react';
+import React from 'react';
 import '../css/App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import Chat from './Chat'
+import Join from './Join'
+
+// const [count, setCount] =useState(0);
+// function countChk(){
+//   alert("현재 카운트는 " + count + "입니다");
+// }
+// useEffect (() => {
+//   document.title = `카운팅 ${count} `;
+// })
 
 const App = () =>  {
-  const [count, setCount] =useState(0);
-  function countChk(){
-    alert("현재 카운트는 " + count + "입니다");
-  }
-  useEffect (() => {
-    document.title = `카운팅 ${count} `;
-  })
   return (
     <div className="App">
-      <header className="header">
-        헤더영역
-      </header>
       <body>
-        <span>카운팅스타 = {count}</span>
+        {/* <span> {count}</span>
         <hr></hr>
         <button onClick={()=> setCount(count+1)}>카운트증가</button>
         <button onClick={()=> setCount(count-1)}>카운트감소</button>
         <button onClick={countChk}>현재 카운트 팝업</button>
-        <hr></hr>
+        <hr></hr> */}
         <div className="chat">
-          <iframe>
-          </iframe>
+        <Router>
+          <Route path='/' component={Join} />
+          <Route path='/chat' component={Chat} />
+        </Router>
         </div>
       </body>
-      <footer>
-        밤하늘의 퍼얼
-      </footer>
+
     </div>
   );
 }
