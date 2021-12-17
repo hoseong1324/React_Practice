@@ -1,22 +1,17 @@
 {
   "files": {
-    "main.css": "/React_Practice/static/css/main.78f73b66.chunk.css",
-    "main.js": "/React_Practice/static/js/main.bb752563.chunk.js",
-    "main.js.map": "/React_Practice/static/js/main.bb752563.chunk.js.map",
-    "runtime-main.js": "/React_Practice/static/js/runtime-main.ddef3f19.js",
-    "runtime-main.js.map": "/React_Practice/static/js/runtime-main.ddef3f19.js.map",
-    "static/js/2.a36f84ae.chunk.js": "/React_Practice/static/js/2.a36f84ae.chunk.js",
-    "static/js/2.a36f84ae.chunk.js.map": "/React_Practice/static/js/2.a36f84ae.chunk.js.map",
-    "static/js/3.eaf39e0d.chunk.js": "/React_Practice/static/js/3.eaf39e0d.chunk.js",
-    "static/js/3.eaf39e0d.chunk.js.map": "/React_Practice/static/js/3.eaf39e0d.chunk.js.map",
+    "main.css": "/React_Practice/static/css/main.fac69cbd.chunk.css",
+    "main.js": "/React_Practice/static/js/main.d41517dc.chunk.js",
+    "main.js.map": "/React_Practice/static/js/main.d41517dc.chunk.js.map",
+    "runtime~main.js": "/React_Practice/static/js/runtime~main.4c2eeab8.js",
+    "runtime~main.js.map": "/React_Practice/static/js/runtime~main.4c2eeab8.js.map",
+    "static/js/2.a1016dd4.chunk.js": "/React_Practice/static/js/2.a1016dd4.chunk.js",
+    "static/js/2.a1016dd4.chunk.js.map": "/React_Practice/static/js/2.a1016dd4.chunk.js.map",
+    "static/js/3.104199fa.chunk.js": "/React_Practice/static/js/3.104199fa.chunk.js",
+    "static/js/3.104199fa.chunk.js.map": "/React_Practice/static/js/3.104199fa.chunk.js.map",
     "index.html": "/React_Practice/index.html",
-    "static/css/main.78f73b66.chunk.css.map": "/React_Practice/static/css/main.78f73b66.chunk.css.map",
-    "static/js/2.a36f84ae.chunk.js.LICENSE.txt": "/React_Practice/static/js/2.a36f84ae.chunk.js.LICENSE.txt"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.ddef3f19.js",
-    "static/js/2.a36f84ae.chunk.js",
-    "static/css/main.78f73b66.chunk.css",
-    "static/js/main.bb752563.chunk.js"
-  ]
+    "precache-manifest.98d4b956130554c79f139807b2364afb.js": "/React_Practice/precache-manifest.98d4b956130554c79f139807b2364afb.js",
+    "service-worker.js": "/React_Practice/service-worker.js",
+    "static/css/main.fac69cbd.chunk.css.map": "/React_Practice/static/css/main.fac69cbd.chunk.css.map"
+  }
 }
